@@ -1,0 +1,16 @@
+<form class="table-body-row">
+
+    <td class="product-remove"><a href="#"><i class="far fa-window-close" ></i></a></td>
+
+    <td class="product-image"><img [src]="[cartItem.img]" alt=""></td>
+    <td class="product-name"> {{cartItem.name}}</td>
+    <td class="product-price">{{cartItem.price}}</td>
+    <td class="product-quantity">
+        <!-- <div pseudo="-webkit-inner-spin-button" id="spin"></div> -->
+        <!-- <button type="button" (click)=" onAddQuantity()"> + </button> -->
+        <input type="number" placeholder="{{cartItem.quantity}}">
+        <!-- <button type="button" (click)="removeAddProductToCart()"> - </button> -->
+    </td>
+
+    <!-- <ul class="product-total">{{ (cartItem.productPrice*cartItem.qty)|currency:'EG'}}</ul> -->
+</form>

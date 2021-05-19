@@ -1,0 +1,26 @@
+<!-- product section -->
+<div class="product-section mt-150 mb-150">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="section-title">
+                    <h3><span class="orange-text">Our</span> Products</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
+                </div>
+            </div>
+        </div>
+        <owl-carousel-o [options]="customOptions" class="single-product-item">
+            <ng-template carouselSlide>
+                <div class="col-lg-9 offset-lg-2 text-center">
+                    <div class="row">
+                        <app-prosuct-list></app-prosuct-list>
+                    </div>
+                </div>
+
+            </ng-template>
+        </owl-carousel-o>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
+<!-- end product section -->

@@ -1,0 +1,143 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Strawberry",
+      "img": "./../assets/img/products/product-img-1.jpg",
+      "href": "/productitem",
+      "price": 85
+    },
+    {
+      "id": 2,
+      "name": "Grab",
+      "img": "../assets/img/products/product-img-2.jpg",
+      "href": "/productitem",
+      "price": 82
+    },
+    {
+      "id": 3,
+      "name": "Lemon",
+      "img": "../assets/img/products/product-img-3.jpg",
+      "href": "/productitem",
+      "price": 185
+    },
+    {
+      "id": 4,
+      "name": "Kawi",
+      "img": "../assets/img/products/product-img-4.jpg",
+      "href": "/productitem",
+      "price": 38
+    },
+    {
+      "id": 5,
+      "name": "Strawberry1",
+      "img": "../assets/img/products/product-img-1.jpg",
+      "href": "/productitem",
+      "price": 55
+    },
+    {
+      "id": 6,
+      "name": "Grab1",
+      "img": "../assets/img/products/product-img-2.jpg",
+      "href": "/productitem",
+      "price": 34
+    },
+    {
+      "id": 7,
+      "name": "Strawberry",
+      "img": "../assets/img/products/product-img-3.jpg",
+      "href": "/productitem",
+      "price": 100
+    },
+    {
+      "id": 8,
+      "name": "Strawberry",
+      "img": "../assets/img/products/product-img-4.jpg",
+      "href": "/productitem",
+      "price": 85
+    },
+    {
+      "id": 9,
+      "name": "Banna",
+      "img": "../assets/img/products/product-img-1.jpg",
+      "href": "/productitem",
+      "price": 65
+    },
+    {
+      "id": 10,
+      "name": "Strawberry",
+      "img": "../assets/img/products/product-img-1.jpg",
+      "href": "/productitem",
+      "price": 85
+    }
+  ],
+  "cart": [
+    {
+      "products": {
+        "id": 3,
+        "name": "Lemon",
+        "img": "../assets/img/products/product-img-3.jpg",
+        "href": "/productitem",
+        "price": 185
+      },
+      "id": 1
+    },
+    {
+      "products": {
+        "id": 3,
+        "name": "Lemon",
+        "img": "../assets/img/products/product-img-3.jpg",
+        "href": "/productitem",
+        "price": 185
+      },
+      "id": 2
+    },
+    {
+      "products": {
+        "id": 3,
+        "name": "Lemon",
+        "img": "../assets/img/products/product-img-3.jpg",
+        "href": "/productitem",
+        "price": 185
+      },
+      "id": 3
+    },
+    {
+      "products": {
+        "id": 6,
+        "name": "Grab1",
+        "img": "../assets/img/products/product-img-2.jpg",
+        "href": "/productitem",
+        "price": 34
+      },
+      "id": 4
+    },
+    {
+      "products": {
+        "id": 5,
+        "name": "Strawberry1",
+        "img": "../assets/img/products/product-img-1.jpg",
+        "href": "/productitem",
+        "price": 55
+      },
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

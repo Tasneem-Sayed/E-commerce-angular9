@@ -1,0 +1,16 @@
+<div class="single-latest-news">
+    <a [routerLink]="[newsdata.snHref]">
+        <div class=" latest-news-bg " style="background-image: url( '{{newsdata.img}}'); "></div>
+    </a>
+    <router-outlet></router-outlet>
+    <div class="news-text-box ">
+        <h3><a [routerLink]="[newsdata.snHref]">{{newsdata.headerNews}}</a></h3>
+        <p class="blog-meta">
+            <span class="author "><i class="fas fa-user "></i> {{newsdata.author}}</span>
+            <span class="date "><i class="fas fa-calendar "></i> {{newsdata.date}}</span>
+        </p>
+        <p class="excerpt ">{{newsdata.description}}</p>
+        <a [routerLink]="[newsdata.snHref]" class="read-more-btn ">read more <i class="fas fa-angle-right "></i></a>
+    </div>
+</div>
+<router-outlet></router-outlet>

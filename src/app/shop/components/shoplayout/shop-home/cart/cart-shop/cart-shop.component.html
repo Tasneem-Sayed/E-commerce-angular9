@@ -1,0 +1,30 @@
+<!-- <div *ngIf="cartItems.length==0" class="alert alert-info">
+    no items added
+</div>
+<div>
+    <ul *ngIf="cartItems.length>0" class="list-group">
+        <label class="list--item" *ngFor="let item of cartItems">
+      <app-cart-item [cartItemdata]='item '></app-cart-item>
+ </label>
+        <label><li class="list-group-item active">
+      <strong>Total</strong> {{cartTotal| currency:'EGP' }}
+  </li>
+</label>
+    </ul>
+</div> -->
+
+
+
+<!-- <tbody> -->
+<ul *ngIf="cartItems.length==0" class="alert alert-info">
+    no items added
+</ul>
+<ul class="list-group" *ngIf="cartItems.length>0">
+    <td class="table-head-row" *ngFor="let item of cartItems">
+        <app-cart-item [cartItem]='item '></app-cart-item>
+    </td>
+</ul>
+<td lass="list-group-item active">
+    <strong>Total</strong> {{cartTotal| currency:'EGP' }}
+    <!--
+</tbody> -->

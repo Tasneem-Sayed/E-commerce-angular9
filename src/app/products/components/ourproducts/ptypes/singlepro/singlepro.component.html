@@ -1,0 +1,12 @@
+<div class="single-product-item">
+    <div class="product-image">
+        <!--[routerLink]=sProduct.href-->
+        <a>
+            <img [src]="[sProduct.img]" alt=""></a>
+    </div>
+    <h3>{{sProduct.name}}</h3>
+    <p class="product-price"> <small>{{sProduct.price|currency:'EG'}} </small><span> Per Kg</span>
+    </p>
+
+    <a class="cart-btn" (click)="addToCart()"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+</div>
